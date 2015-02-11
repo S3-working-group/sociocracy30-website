@@ -1,0 +1,710 @@
+/* solarized */
+.highlight1 {
+  color: #2aa198; }
+
+.highlight2 {
+  color: #6c71c4; }
+
+.highlight3 {
+  color: #268bd2; }
+
+.highlight4 {
+  color: #859900; }
+
+.highlight5 {
+  color: #d33682; }
+
+/* some useful mixins */
+#mc_embed_signup .subscribeButton, #highlightsBox, nav, footer, small {
+  font-size: 0.75017rem;
+  line-height: 1rem; }
+
+.linkButton, .downloadButton, body, h5 {
+  font-size: 1rem;
+  line-height: 1.33333rem; }
+
+.continueTourButton, #howDoesItWork .stamp, .bigger, h4 {
+  font-size: 1.333rem;
+  line-height: 1.33333rem; }
+
+#subheader, #howDoesItWork .howDomain th, h3 {
+  font-size: 1.77689rem;
+  line-height: 1.33333rem; }
+
+h2 {
+  font-size: 2.36861rem;
+  line-height: 2rem; }
+
+h1 {
+  font-size: 4.20872rem;
+  line-height: 3.33333rem; }
+
+html {
+  font-size: 112.5%;
+  line-height: 1.33333em; }
+
+/* ie8 fixes for html5 */
+header, footer, article, section, nav, menu {
+  display: block; }
+
+img {
+  border: none; }
+
+div, h1, h2, h3, h4, h5, h6, form {
+  /*margin:0;*/ }
+
+/*************************************x**************************************x***********************************x**********************************
+ * Fonts
+**************************************x**************************************x**************************************x******************************/
+/* font shortcuts */
+.continueTourButton, .linkButton, .downloadButton {
+  width: auto;
+  height: 1.2em;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0 26px 0;
+  padding: 8px;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+  .continueTourButton:link, .linkButton:link, .downloadButton:link, .continueTourButton:visited, .linkButton:visited, .downloadButton:visited, .continueTourButton:hover, .linkButton:hover, .downloadButton:hover, .continueTourButton:active, .linkButton:active, .downloadButton:active {
+    text-decoration: none; }
+  .continueTourButton:active, .linkButton:active, .downloadButton:active {
+    border-style: none;
+    text-shadow: 0px 0px 0px #333; }
+
+.continueTourButton {
+  background-color: #cb4b16;
+  color: #fdf6e3;
+  border-color: #586e75;
+  text-shadow: 1px 1px 2px #9d3a11;
+  font-style: oblique; }
+  .continueTourButton:link, .continueTourButton:visited, .continueTourButton:hover, .continueTourButton:active {
+    color: #fdf6e3; }
+  .continueTourButton:hover {
+    background-color: #e8632c;
+    text-shadow: 1px 1px 4px #6f290c; }
+  .continueTourButton:active {
+    text-shadow: 0px 0px 0px #333; }
+
+#jumpToResources .continueTourButton {
+  height: 1em;
+  font-size: .8em; }
+
+.linkButton {
+  /* button for external links (smaller, smaller font, greenish) */
+  background-color: #859900;
+  color: #fdf6e3;
+  border-color: #586e75;
+  text-shadow: 1px 1px 2px #596600;
+  height: 1.2em;
+  line-height: 120%; }
+  .linkButton:link, .linkButton:visited, .linkButton:hover, .linkButton:active {
+    color: #fdf6e3; }
+  .linkButton:hover {
+    background-color: #b1cc00;
+    text-shadow: 1px 1px 4px #2c3300; }
+  .linkButton:active {
+    text-shadow: 0px 0px 0px #333; }
+
+.downloadButton {
+  background-color: #268bd2;
+  color: #fdf6e3;
+  border-color: #586e75;
+  text-shadow: 1px 1px 2px #1e6ea7;
+  padding-left: 45px;
+  background-image: url("download16.png");
+  background-repeat: no-repeat;
+  background-position: 5px center; }
+  .downloadButton:link, .downloadButton:visited, .downloadButton:hover, .downloadButton:active {
+    color: #fdf6e3; }
+  .downloadButton:hover {
+    background-color: #4ca2df;
+    text-shadow: 1px 1px 4px #16527c; }
+  .downloadButton:active {
+    text-shadow: 0px 0px 0px #333; }
+
+#mc_embed_signup .subscribeButton {
+  background-color: #268bd2;
+  color: #fdf6e3;
+  border-color: #586e75;
+  text-shadow: 1px 1px 2px #1e6ea7;
+  text-align: center;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  display: inline;
+  clear: both;
+  width: 30%;
+  min-width: 90px;
+  margin: 2px 0 0px 0;
+  padding: 0;
+  vertical-align: top;
+  cursor: pointer;
+  height: 26px;
+  line-height: 26px;
+  white-space: nowrap; }
+  #mc_embed_signup .subscribeButton:link, #mc_embed_signup .subscribeButton:visited, #mc_embed_signup .subscribeButton:hover, #mc_embed_signup .subscribeButton:active {
+    color: #fdf6e3; }
+  #mc_embed_signup .subscribeButton:hover {
+    background-color: #4ca2df;
+    text-shadow: 1px 1px 4px #16527c; }
+  #mc_embed_signup .subscribeButton:active {
+    text-shadow: 0px 0px 0px #333; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * Header and Follow Box
+**************************************x**************************************x**************************************x******************************/
+header h1,
+#subheader {
+  text-align: center; }
+
+#subheader {
+  font-style: oblique;
+  font-weight: 100;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  line-height: 120%; }
+
+#scrollToWhatIsIt {
+  position: relative;
+  margin-left: 600px;
+  margin-top: 40px; }
+
+#arrow01toWhatIsIt {
+  background-image: url("arrow01toWhatIsIt.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 367px;
+  height: 546px;
+  left: 80px;
+  top: -10px;
+  z-index: -2; }
+
+#highlightsBox {
+  overflow: hidden;
+  position: relative;
+  background-color: #eee8d5;
+  box-shadow: 1px 1px 1px #fae7b3;
+  border: 1px solid #d1c08c;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  height: auto;
+  margin: 60px 20px 0px 200px;
+  text-align: left;
+  width: 600px;
+  padding: 15px; }
+
+#highlightsBox h5 {
+  margin: 0px; }
+
+#jumpToResources {
+  float: left;
+  width: 190px;
+  vertical-align: top; }
+
+#followOptions {
+  float: right;
+  width: 360px;
+  text-align: left; }
+
+#mc_embed_signup {
+  clear: left;
+  font: 12px Helvetica,Arial,sans-serif; }
+  #mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0 0 10px 0; }
+  #mc_embed_signup h2 {
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 1.4em; }
+  #mc_embed_signup input {
+    border: 1px solid #002b36;
+    -webkit-appearance: none;
+    background-color: #fdf6e3; }
+  #mc_embed_signup input[type=checkbox] {
+    -webkit-appearance: checkbox; }
+  #mc_embed_signup input[type=radio] {
+    -webkit-appearance: radio; }
+  #mc_embed_signup input:focus {
+    border-color: #073642; }
+  #mc_embed_signup .small-meta {
+    font-size: 11px; }
+  #mc_embed_signup .nowrap {
+    white-space: nowrap; }
+  #mc_embed_signup .clear {
+    clear: none;
+    display: inline; }
+  #mc_embed_signup label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold; }
+  #mc_embed_signup input.email {
+    display: inline;
+    padding: 8px 0;
+    margin: 0 4% 0px 0;
+    text-indent: 5px;
+    width: 58%;
+    min-width: 130px; }
+  #mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0em .5em 0em .5em;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    clear: both; }
+  #mc_embed_signup div.response {
+    margin: 1em 0;
+    padding: 1em .5em .5em 0;
+    font-weight: bold;
+    float: left;
+    top: -1.5em;
+    z-index: 1;
+    width: 80%; }
+  #mc_embed_signup #mce-error-response {
+    display: none; }
+  #mc_embed_signup #mce-success-response {
+    color: #529214;
+    display: none; }
+  #mc_embed_signup label.error {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 1.05em;
+    text-align: left;
+    padding: .5em 0; }
+
+#followTwt {
+  margin-top: 10px; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * Navigation
+**************************************x**************************************x**************************************x******************************/
+nav {
+  position: absolute;
+  width: 120px;
+  z-index: 50;
+  background-color: #eee8d5;
+  border-color: #586e75;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 1px 1px 1px #f6d784;
+  margin-right: 80px;
+  margin-top: 80px;
+  padding: 15px;
+  text-align: center; }
+
+nav p {
+  margin-top: .2em;
+  margin-bottom: .2em;
+  padding-bottom: .2em;
+  border-width: 1px; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * Sociocracy 3.0...
+**************************************x**************************************x**************************************x******************************/
+#what1,
+#what2,
+#what3,
+#whatHistory,
+#whatMovement,
+#scrollToGoodReasons {
+  width: auto;
+  padding: 15px;
+  margin: 0px; }
+
+#what1 {
+  float: left;
+  margin-left: 50px; }
+
+#what2 {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px; }
+
+#what3 {
+  clear: left;
+  margin-left: 150px;
+  width: 400px; }
+
+#scrollToGoodReasons {
+  position: relative;
+  float: right;
+  text-align: center;
+  padding-right: 235px;
+  padding-top: 30px; }
+
+#arrow02toGoodReasons {
+  background-image: url("arrow02toGoodReasons.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 318px;
+  height: 558px;
+  left: 50px;
+  top: 10px;
+  z-index: -2; }
+
+#whatHistory {
+  position: relative;
+  text-align: center; }
+
+#whatHistory a {
+  position: absolute;
+  top: 80px;
+  left: 720px; }
+
+#whatMovement {
+  text-align: center;
+  margin-top: 20px; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * 4 good reasons
+**************************************x**************************************x**************************************x******************************/
+#goodReasons {
+  *zoom: 1; }
+  #goodReasons:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+  #goodReasons h3 {
+    margin-bottom: 25px; }
+  #goodReasons #reasonEffective,
+  #goodReasons #reasonLightweight,
+  #goodReasons #reasonActionable,
+  #goodReasons #scrollToHowDoesItWork {
+    padding-top: 30px; }
+  #goodReasons .reason {
+    width: 325px;
+    text-align: center; }
+  #goodReasons #reasonOpen {
+    float: left; }
+  #goodReasons #reasonFree {
+    float: right; }
+  #goodReasons #reasonEffective {
+    clear: both;
+    float: left; }
+  #goodReasons #reasonActionable {
+    float: left; }
+  #goodReasons #reasonLightweight {
+    float: right; }
+  #goodReasons #scrollToHowDoesItWork {
+    position: absolute;
+    top: 270px;
+    left: 480px; }
+  #goodReasons #arrow03toHowDoesItWork {
+    background-image: url("arrow03toHowDoesItWork.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 183px;
+    height: 523px;
+    left: 37px;
+    top: 50px;
+    z-index: -2; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * how does it work
+**************************************x**************************************x**************************************x******************************/
+#howDoesItWork {
+  /* styles for tables */
+  /* text styles */
+  /* positioning */ }
+  #howDoesItWork .howDomain {
+    margin: 0px;
+    padding: 0px; }
+  #howDoesItWork .howDomain td,
+  #howDoesItWork .howDomain th {
+    padding-top: 20px; }
+  #howDoesItWork .howDomain th {
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: oblique; }
+  #howDoesItWork .howDomain h4 {
+    margin: 0px;
+    text-align: right;
+    font-style: oblique;
+    padding-right: 15px; }
+  #howDoesItWork .stamp {
+    position: absolute;
+    left: 660px;
+    top: 120px;
+    border: 2px solid #dc322f;
+    color: #dc322f;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    -webkit-transform: rotate(-15deg);
+    /* Safari, Chrome */
+    -moz-transform: rotate(-15deg);
+    /* Firefox */
+    -ms-transform: rotate(-15deg);
+    /* IE */
+    -o-transform: rotate(-15deg);
+    /* Opera */
+    transform: rotate(-15deg);
+    /* CSS3 standard */ }
+  #howDoesItWork #howStructure {
+    float: left;
+    width: 55%;
+    margin-right: 30px; }
+  #howDoesItWork #scrollToTheMovement {
+    position: relative;
+    float: left;
+    width: 55%;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  #howDoesItWork #arrow04toTheMovement {
+    background-image: url("arrow04toTheMovement.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 134px;
+    height: 413px;
+    left: 545px;
+    top: 12px;
+    z-index: -2; }
+  #howDoesItWork #howPeople {
+    float: left;
+    width: 55%; }
+  #howDoesItWork #howInformation {
+    width: auto; }
+  #howDoesItWork #externalSociocracy30Details {
+    width: auto;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 60px; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * the movement
+**************************************x**************************************x**************************************x******************************/
+#theSociocracy30movement {
+  *zoom: 1; }
+  #theSociocracy30movement:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+
+#movementMission,
+#movementCreatesResources {
+  text-align: center; }
+
+#movementCreatesResources {
+  margin-top: 40px;
+  text-align: center; }
+
+#scrollToGetInvolved {
+  position: relative;
+  width: 100%;
+  margin-top: 40px;
+  text-align: center; }
+
+#arrow05toGetInvolved {
+  background-image: url("arrow05toGetInvolved.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 153px;
+  height: 256px;
+  left: 605px;
+  top: 10px;
+  z-index: -2; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * become part of the movement
+**************************************x**************************************x**************************************x******************************/
+#getInvolved h3 {
+  text-align: center;
+  margin-top: 60px; }
+#getInvolved .yourChoice {
+  color: #268bd2;
+  padding-bottom: 10px; }
+#getInvolved .getInvolvedAndContribute {
+  color: #b58900; }
+#getInvolved .takeAction {
+  padding-top: 30px; }
+  #getInvolved .takeAction h2 + p {
+    text-align: center; }
+  #getInvolved .takeAction h4 {
+    font-style: oblique;
+    display: inline;
+    padding-right: 10px; }
+  #getInvolved .takeAction p {
+    display: inline; }
+#getInvolved div:nth-of-type(2) {
+  padding-left: 30px; }
+#getInvolved div:nth-of-type(3) {
+  padding-left: 60px; }
+#getInvolved div:nth-of-type(4) {
+  padding-left: 90px; }
+#getInvolved div:nth-of-type(5) {
+  padding-left: 120px; }
+#getInvolved #scrollToResources {
+  position: absolute;
+  top: 330px;
+  right: 40px; }
+#getInvolved #arrow06toResources {
+  background-image: url("arrow06toResources.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 368px;
+  height: 656px;
+  left: -100px;
+  top: 30px;
+  z-index: -2; }
+#getInvolved #contribute {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  overflow: hidden;
+  width: 75%; }
+  #getInvolved #contribute #contactText {
+    width: 80%;
+    float: left;
+    text-align: right;
+    padding-right: 25px; }
+  #getInvolved #contribute #contactButton {
+    margin-top: 13px; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * resources
+**************************************x**************************************x**************************************x******************************/
+#resources {
+  height: 500px; }
+  #resources h3 {
+    font-size: 1.8em;
+    margin: 0px; }
+  #resources #pressKit, #resources #learn, #resources #practice, #resources #teach, #resources #license {
+    margin: 0px;
+    padding: 0px;
+    text-align: center; }
+  #resources #pressKit {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 250px; }
+    #resources #pressKit h3 {
+      color: #b58900; }
+  #resources #externalPressKitZip {
+    margin-top: 25px; }
+  #resources #learn {
+    position: absolute;
+    top: 170px;
+    left: 450px;
+    width: 300px; }
+    #resources #learn h3 {
+      color: #859900; }
+  #resources #practice {
+    position: absolute;
+    top: 250px;
+    left: 205px;
+    width: 250px; }
+    #resources #practice h3 {
+      color: #268bd2; }
+  #resources #teach {
+    position: absolute;
+    top: 250px;
+    left: 755px;
+    width: 250px; }
+    #resources #teach h3 {
+      color: #cb4b16; }
+  #resources #externalResources {
+    position: absolute;
+    top: 315px;
+    left: 490px; }
+  #resources #license {
+    position: absolute;
+    top: 400px;
+    left: 355px;
+    width: 500px; }
+
+/*************************************x**************************************x***********************************x**********************************
+ * footer
+**************************************x**************************************x**************************************x******************************/
+footer {
+  text-align: right;
+  margin-bottom: 0px;
+  padding: 0px 50px 50px 50px;
+  border: 0px; }
+
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Geneva, Verdana, sans-serif;
+  color: #839496;
+  background-color: #fdf6e3; }
+
+header, section, footer {
+  position: relative;
+  width: 980px;
+  padding: 50px;
+  border: 1px solid #eee8d5;
+  margin: 0px auto 120px auto; }
+
+.oblique {
+  font-style: oblique; }
+
+.upper, h1, h2, h5 {
+  text-transform: uppercase; }
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal; }
+
+h2 {
+  text-align: center;
+  font-weight: normal; }
+
+/* container for h2, required to limit headline width */
+.blackBack {
+  background-color: #eee8d5;
+  padding-top: .1em;
+  padding-bottom: .1em;
+  padding-left: .2em;
+  padding-right: .2em; }
+
+h3 {
+  font-style: oblique;
+  font-weight: normal; }
+
+h4 {
+  font-weight: normal; }
+
+h5 {
+  font-weight: normal; }
+
+a, a:link, a:visited {
+  color: #839496;
+  text-decoration: none; }
+
+a:hover, a:active {
+  text-decoration: underline; }

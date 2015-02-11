@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Sociocracy 3.0 - Grow effective, agile and resilient organizations of almost any size.</title>
+ 	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!-- [if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+	<script>
+	/* slow scroll for the tour */
+	var scrollSpeed = 500;	
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, scrollSpeed);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	
+	/* init GA */
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-58821594-1', 'auto');
+	  ga('send', 'pageview');
+
+	/* add event handlers to the tour buttons */
+    $(function() {
+		var buttonsArray = ['continueStraightToResources', 'continueToWhatIsIt', 'continueToGoodReasons', 'continueToHowDoesItWork', 'continueToTheMovement', 'continueToGetInvolved', 'continueToResources']; 
+
+		$.each(buttonsArray, function( index, buttonId ){
+			$('#'+buttonId).on('click', function() {
+	  			console.log('pressed' + buttonId);		
+	  			ga('send', 'event', 'button', 'click', buttonId);
+			});
+
+		});
+	});
+	</script>
+</head>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<body>
+<nav id="sidenav">
+	<p id="navicon">≡</p>
+	<p><a href="#whatIsIt">What is it?</a></p>
+	<p><a href="#goodReasons">Five Good Reasons</a></p>
+	<p><a href="#howDoesitWork">How Does It Work</a></p>
+	<p><a href="#theSociocracy30movement">The Movement</a></p>
+	<p><a href="#getInvolved">Get Involved</a></p>
+	<p><a href="#resources">Resources</a></p>
+</nav>
+<header id="top">
+  	<h1>Sociocracy 3.0</h1>
+  	<div id="subheader">Grow <span class="highlight1">effective</span>, <span class="highlight3">agile</span> and <span class="highlight2">resilient</span><br/> organizations of almost any size.</div>
+	<div id="scrollToWhatIsIt"><a href="#whatIsIt" class="continueTourButton" id="continueToWhatIsIt">Learn more ≫</a><div id="arrow01toWhatIsIt">&nbsp;</div></div>
+
+	<div id="highlightsBox">
+		<div id="jumpToResources">
+			<h5>Yay! Free Stuff!</h5>
+			<p>We provide a growing body of <span class="oblique">free resources</span> to help you learn, practice and teach Sociocracy 3.0.</p>
+			<p><a href="#resources" class="continueTourButton" id="continueStraightToResources">Jump straight to the resources ≫</a></p>
+		</div>
+		<div id="followOptions">
+			<div id="subscribeToNewsletter">
+				<h5>Sign up for the Sociocracy 3.0 Newsletter</h5>
+				<p>Get updates about available materials and events.</p>
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+				<form action="http://sociocracy30.us10.list-manage.com/subscribe/post?u=2c08030e29a04ccc3913b19c5&amp;id=6627e83f7a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">
+					
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2c08030e29a04ccc3913b19c5_6627e83f7a" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="subscribeButton"></div>
+				    </div>
+				</form>
+				</div>
+				<!--End mc_embed_signup-->
+			</div>
+
+			<div id="followTwt">
+				<a href="https://twitter.com/sociocracy30" class="twitter-follow-button" data-show-count="false">Follow @sociocracy30</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			</div>
+		</div>	
+	</div>
+</header>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="whatIsIt">
+	<h2><span class="blackBack">Sociocracy 3.0</span></h2>
+
+	<p id="what1">…draws on <span class="highlight3 oblique">collective wisdom</span> and motivates<br/> the <span class="highlight2 bigger">full engagement</span> of every member<br/> to <span class="highlight1">effectively steer</span> the organization.</p>
+
+	<p id="what2">…enables the <span class="highlight3 oblique">continuous evolution</span> of<br/> <span class="highlight2">organisational structure</span> according to<br/> changing context.</p>
+	
+	<div id="scrollToGoodReasons"><a href="#goodReasons" class="continueTourButton" id="continueToGoodReasons">Learn more ≫</a><div id="arrow02toGoodReasons">&nbsp;</div></div>
+	<p id="what3">…complements and enriches <span class="highlight1">Scrum,</span><br/> <span class="highlight3 oblique">Kanban</span> and <span class="highlight2">the Lean Startup Method.</span></p>
+
+	<div id="whatHistory">
+		<p>…is  <span class="highlight1 oblique bigger">sociocracy</span> (a.k.a. dynamic governance)  <span class="highlight3">updated for the 21st century</span><br/> and integrated with  <span class="highlight2 bigger">lean and agile thinking.</span></p>
+		<a href="/a-brief-history/" class="linkButton">A bit of history ≫</a>
+	</div> 
+
+	<p id="whatMovement">The  <span class="highlight1 bigger oblique">Sociocracy 3.0 movement</span> provides a growing body of<br/> resources under a Creative Commons  <span class="highlight2 bigger">Free Culture license</span><br/> to <span class="highlight2">learn</span>,  <span class="highlight3 oblique">practice</span> and  <span class="highlight1 bigger">teach</span> Sociocracy 3.0.</p>
+</section>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="goodReasons">
+	<h2><span class="blackBack">5 Good Reasons</span></h2>
+
+	<div id="scrollToHowDoesItWork"><a href="#howDoesItWork" class="continueTourButton" id="continueToHowDoesItWork">Discover how ≫</a><div id="arrow03toHowDoesItWork">&nbsp;</div>
+</div>
+
+	<div id="reasonOpen" class="reason"><h3 class="highlight2">open</h3>
+		<p>Do with it what you want.<br/> Take just what you need.<br/> Remix, extend and adapt it<br/> as you like.</p>
+	</div>
+	<div id="reasonFree" class="reason"><h3 class="highlight1">free</h3>
+		<p>Free resources,<br/> no hidden fees,<br/> no certifications,<br/> no small print!</p>
+	</div>
+	<div id="reasonEffective" class="reason"><h3 class="highlight3">effective</h3>
+		<p>Principles and tools have<br/> been tried and tested<br/> for decades in<br/> many organizations.</p>
+	</div>
+	<div id="reasonActionable" class="reason"><h3 class="highlight5">actionable</h3>
+		<p>There's something that<br/> YOU can use right now<br/> to bring value to <br/>your organization.</p>
+	</div>
+	<div id="reasonLightweight" class="reason"><h3 class="highlight4">lightweight</h3>
+		<p>Just the essentials:<br/> Common-sense practices,<br/> bare-bone processes.</p>
+	</div>
+</section>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="howDoesItWork">
+	<div class="stamp">batteries included!</div>
+	<h2><span class="blackBack">How Does It Work?</span></h2>
+
+	<table id="howStructure" class="howDomain">
+		<thead><tr><th colspan=2 class="highlight2">Structure</th></tr></thead>
+		<tbody>
+		<tr>
+			<td><h4 class="highlight1">circles</h4></td>
+			<td>Organize work in semi-autonomous, self-organizing and often self-governing teams.</td>
+		</tr><tr>
+			<td><h4 class="highlight3">scale</h4></td>
+			<td>A variety of structural patterns that can be combined to organically grow and evolve your organisation.</td>
+		</tr><tr>
+			<td><h4 class="highlight4">align</h4></td>
+			<td>Circles and individuals align towards shared vision, mission and values.</td>
+		</tr>
+		</tbody>
+	</table>
+	<div id="scrollToTheMovement"><a href="#theSociocracy30movement" class="continueTourButton" id="continueToTheMovement">Learn how ≫</a><div id="arrow04toTheMovement">&nbsp;</div>
+</div>
+ 
+	<table id="howPeople" class="howDomain">
+		<thead><tr><th colspan=2 class="highlight3">People</th></tr></thead>
+		<tbody>
+		<tr>
+			<td><h4 class="highlight2">elect</h4>
+			<td>Identify appropriate people for roles.</td>
+		</tr><tr>
+			<td><h4 class="highlight1">improve</h4>
+			<td>Maximise potential of everyone in the organization, amplyfiy individual development and learning.</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<table id="howInformation" class="howDomain">
+		<thead><tr><th colspan=2 class="highlight1">Information</th></tr></thead>
+		<tbody>
+		<tr>
+			<td><h4 class="highlight3">integrate</h4></td>
+			<td>Use fast and effective processes to synthesize diverse viewpoints into workable solutions.</td>
+		</tr><tr>
+			<td><h4 class="highlight4">iterate</h4></td>
+			<td>Start with policies that are good enough for now and safe enough to try. Evolve your policies  
+as new wisdom emerges.</td>
+		</tr><tr>
+			<td><h4 class="highlight2">link</h4></td>
+			<td>Connect circles for effective flow and processing of information throughout the organization.</td>
+		</tr>
+		</tbody>
+	</table>
+
+	<div id="externalSociocracy30Details"><a href="/the-details/" class="linkButton">Sociocracy 3.0 in Detail ≫</a></div>
+</section>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="theSociocracy30movement">
+	<h2><span class="blackBack">The Sociocracy 3.0 Movement</span></h2>
+
+	<div id="movementMission"><span class="highlight4 bigger">Our mission</span><br/> is to<br/> <span class="highlight2 bigger oblique">develop and evolve Sociocracy 3.0</span><br/> and<br/> <span class="highlight1 bigger oblique">make it available to as many<br/> organizations as possible.</span></div>	
+
+	<div id="movementCreatesResources" class="highlight3 oblique">We create resources under a <br/>Creative Commons Free Culture License<br/>to learn, practice and teach Sociocracy 3.0.</div>
+
+	<div id="scrollToGetInvolved"><a href="#getInvolved" class="continueTourButton" id="continueToGetInvolved">Become Part of the Movement ≫</a><div id="arrow05toGetInvolved">&nbsp;</div></div>
+</section>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="getInvolved">
+	<h2><span class="blackBack">Become Part Of The Movement</span></h2>
+
+	<h3 class="yourChoice">Here’s what YOU can do:</h3> 
+
+	<div class="takeAction">
+		<h4 class="highlight4">write</h4>
+		<p>Bloggers and journalists - get the Press Kit, write about Sociocracy 3.0, spread the word.</p>
+	</div>
+
+	<div class="takeAction">
+		<h4 class="highlight2">learn</h4>
+		<p>Browse the study and training materials to learn more about Sociocracy 3.0.</p>
+		<div id="scrollToResources"><a href="#resources" class="continueTourButton" id="continueToResources">Go to the resources ≫</a><div id="arrow06toResources">&nbsp;</div></div>
+	</div>
+
+	<div class="takeAction">
+		<h4 class="highlight3">do</h4>
+		<p>Use our practice materials to help you with implementing Sociocracy 3.0 in your area of influence.</p>
+	</div>
+
+	<div class="takeAction">
+		<h4 class="highlight1">teach</h4>
+		<p>Use our scripts and templates to hold your own presentations, trainings and workshops.</p>
+	</div>
+
+	<div class="takeAction">
+		<h4 class="highlight5">host</h4>
+		<p>As an organization, host a Sociocracy 3.0 training or community event.</p>
+	</div>
+
+	<h3 class="getInvolvedAndContribute">get involved and contribute</h3>
+	<div id="contribute">
+		<div id="contactText">If you'd like to contribute your time towards the creation<br/> or translation of Sociocracy 3.0 resources then please contact us.</div>
+		<div id="contactButton"><a href="/contact/" class="linkButton">Contact ≫</a></div>
+	</div>
+</section>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<section id="resources">
+	<h2><span class="blackBack">Resources</span></h2>
+ 
+ 	<div id="pressKit">
+		<h3>The Press Kit</h3>
+		<p>Enough information to get you started, and all the illustrations in print and screen resolution.</p>
+		<div id="externalPressKitZip"><a href="/wp-content/uploads/2015/01/Sociocracy3.0PressKit.zip" class="downloadButton">Download</a></div>
+	</div>
+
+	<div id="learn">
+		<h3>Learn</h3>
+		<p>Podcasts, articles, videos,<br/> and e-learning courses.</p>
+	</div>
+	<div id="practice">
+		<h3>Practice</h3>
+		<p>Cheat-sheets, process and facilitation guides, templates, hints, best practices, FAQs.</p>
+	</div>
+	<div id="teach">
+		<h3>Teach</h3>
+		<p>Slides for presentations, guides for workshops, and other helpful materials.</p>
+	</div>
+	<div id="externalResources"><a href="/resource-library/" class="linkButton">Browse the resource library ≫</a></div>
+
+	<div id="license">All resources come with a<br/> <span class="highlight2 bigger oblique">Creative Commons Free Culture License</span><br/> so are free to use them for commercial purposes,<br/> adapt them to your needs and redistribute them.</div>
+</section>
+<footer>
+	<p>© 2014, 2015 by Bernhard Bockelbrink and James Priest.</p>
+</footer>
+</body>
+</html>
